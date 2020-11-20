@@ -87,8 +87,15 @@ a{
 	margin-top: 2%;
 	color: rgba(0, 0, 0, 0.7);
 	font-size: 2vw;
+	font-family: 'Noto Sans', sans-serif;
 }
-
+#subheading{
+	margin-left: 29%;
+	margin-top: 1.25%;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 1.83vw;
+	font-family: 'Noto Sans', sans-serif;
+}
 #clg_logo{
 	height:12%;
 	width: 12%;
@@ -3378,8 +3385,8 @@ input, select, textarea {
 		background-color: #0e0c0c;
 		/*background: linear-gradient(-45deg, #1a2980, #26d0ce);*/
 		position: absolute;
-		width: 64em;
-		max-width: calc(100% - 4em);
+		width: 70em;
+		max-width: calc(100% - 10em);
 		padding: 1em;
 		background-color: #080707;
 		border-radius: 1em;
@@ -3971,3 +3978,6 @@ input, select, textarea {
 	#change_20{
 		text-align: justify;
 	}
+.seats{
+	font-family: 'Noto Sans', sans-serif;
+}
