@@ -37,7 +37,9 @@
 .plum {
 	background-color: plum !important;
 }
-
+body{
+	overflow-x: hidden;
+}
 
 html, body, div, span, applet, object,
 iframe,h2, h3, h4, h5, h6, p, blockquote,
@@ -90,7 +92,14 @@ a{
 	font-family: 'Noto Sans', sans-serif;
 }
 #subheading{
-	margin-left: 29%;
+	margin-left: 40%;
+	margin-top: 1.25%;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 1.83vw;
+	font-family: 'Noto Sans', sans-serif;
+}
+#subheading2{
+	margin-left: 30%;
 	margin-top: 1.25%;
 	color: rgba(0, 0, 0, 0.7);
 	font-size: 1.83vw;
@@ -3124,7 +3133,7 @@ input, select, textarea {
 		-moz-flex: 1;
 		-webkit-flex: 1;
 		-ms-flex: 1;
-		flex: 1;
+		flex: 4;
 	}
 
 	.spotlight .content > :last-child {
@@ -3136,7 +3145,9 @@ input, select, textarea {
 	}
 
 	.spotlight .image {
-		display: inline-block;
+		display: flex;
+		flex: 4;
+		align-items: flex-end;
 		margin-left: 4em;
 		padding: 0.65em;
 		border-radius: 2.75rem;
@@ -3144,23 +3155,22 @@ input, select, textarea {
 	}
 
 	.spotlight .image div {
-		display: block;
 		border-radius: 2.5rem;
 	}
 	
 	@media screen and (min-width: 981px) {
 		.spotlight .image div {
-			background-size: cover;
+			background-size: contain;
 			background-image: url("../../images/summerschool/robo.jpg");
-			height: 35em;
-			width: 20em;
+			height: 37em;
+			width: 27em;
 		}
 	}
 
 	@media screen and (max-width: 980px) and (orientation: landscape) {
 
 		.spotlight .image div {
-			background-size: cover;
+			background-size: contain;
 			background-image: url("../../images/summerschool/robo.jpg");
 			height: 28em;
 			width: 15em;
@@ -3385,7 +3395,7 @@ input, select, textarea {
 		background-color: #0e0c0c;
 		/*background: linear-gradient(-45deg, #1a2980, #26d0ce);*/
 		position: absolute;
-		width: 70em;
+		width: auto;
 		max-width: calc(100% - 10em);
 		padding: 1em;
 		background-color: #080707;
@@ -3488,7 +3498,7 @@ input, select, textarea {
 		font-size: 0.9em;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 987px) {
 
 		#nav {
 			display: none;
@@ -3980,4 +3990,33 @@ input, select, textarea {
 	}
 .seats{
 	font-family: 'Noto Sans', sans-serif;
+}
+.sponsors{
+	display: inline-block;
+}
+#sponsor1{
+	margin-bottom: 10%;
+}
+@media only screen and (max-width: 768px) {
+	.sponsors{
+		display: block;
+	}
+	.sponsor2{
+		margin-top: 35%;
+	}
+  }
+#iiitl{
+	margin-left: 27%;
+}
+@media only screen and (max-width: 580px){
+	#iiitl{
+		margin-left: 18%;
+		width: 40%;
+	}
+	#iiitn{
+		width: 20%;
+	}
+	#vitc{
+		width: 20%;
+	}
 }
