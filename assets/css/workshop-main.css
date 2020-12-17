@@ -159,7 +159,7 @@ a {
   font-family: "Noto Sans", sans-serif;
 }
 #subheading {
-  margin-left: 40%;
+  margin-left: 43%;
   margin-top: 1.25%;
   color: rgba(0, 0, 0, 0.7);
   font-size: 1.83vw;
@@ -4073,29 +4073,33 @@ body.is-preload #header.alt .logo {
   margin-left: 27%;
 }
 #iiitlTitle {
-  font-size: 2.1rem;
+  font-size: 1em;
   font-family: "Noto Sans", sans-serif;
   opacity: 0.75;
-  animation: type 4s steps(50) 1s 1 normal both;
+  animation: type 5s steps(50) 1s 1 normal both;
   animation-iteration-count: infinite;
   white-space: nowrap;
   border-right: 4px solid black;
   width: fit-content;
   margin-top: 2%;
   overflow: hidden;
-  margin-left: 23%;
+  margin-left: -115%;
 }
 @keyframes type {
   0% {
-    width: 0ch;
+    width: 0%;
   }
   10% {
   }
-  99% {
+  84% {
+    border-right: 4px solid black;
+  }
+  85% {
+    width: 340%;
     border-right: 4px solid black;
   }
   100% {
-    width: 55ch;
+    width: 340%;
     border-right: 0;
   }
 }
